@@ -168,7 +168,7 @@ Several regression models were compared, including Multilinear Regression, Regre
 
 ## Model Deployment
 
-The final model has been deployed using jupyter notebook final model [Airbnb price predictor](#Airbnb_price_predictor_RF) file and Streamlit using final price prediction file [Airbnbprice.py](#airbnbprice.py). You can predict the price of a property by entering the top 10 predictors that directly influence the target variable (price).
+The final model has been deployed using jupyter notebook final model [**Airbnb_price_predictor_RF.ipynb**](Airbnb_price_predictor_RF.ipynb) file and Streamlit using final price prediction file [**airbnbprice.py**](airbnbprice.py). You can predict the price of a property by entering the top 10 predictors that directly influence the target variable (price).
 
 #### Result using pyton in Jupyter Notebook
 
