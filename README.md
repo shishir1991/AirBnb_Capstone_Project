@@ -17,6 +17,8 @@ This repository contains the code and data for the Airbnb Capstone Project. The 
 6. [Model Deployment](#model-deployment)
 7. [Conclusion](#conclusion)
 8. [Files in the Repository](#files-in-the-repository)
+9. [License](#license)
+10. [Contact](#contact)
 
 
 ## Project Overview
