@@ -35,7 +35,15 @@ The dataset comprises four tables:
 
 ### Bivariate relationships using Scatterplot for Price Distribution
 
-![Price Distribution][image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/bb9fecca-e9cc-4170-a0b7-7d3e61ec1139)
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/8a357456-0b58-4f99-ba43-f13073a18e7a)
+
+**Analysis by Latitude**:
+
+- Most of the properties are located between 51.207870 and 51.220905 latitude.
+
+- Prices of the properties are high between the latitudes 51.200 and 51.250.
+
+
 
 
 
