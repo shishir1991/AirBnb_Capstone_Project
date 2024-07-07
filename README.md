@@ -216,7 +216,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Contact
 For any further questions or contributions, please contact us:
 
-#### Project Lead: Shishir KHerod
+#### Project Lead: Shishir Kherod
 #### Email: shishirdma@gmail.com
 
 Feel free to clone this repository and explore the code and data. If you have any questions or suggestions, please open an issue or contact me directly.
