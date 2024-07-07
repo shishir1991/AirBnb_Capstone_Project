@@ -37,11 +37,18 @@ The dataset comprises four tables:
 
 ![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/8a357456-0b58-4f99-ba43-f13073a18e7a)
 
-**Analysis by Latitude**:
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/5fbbea85-c21c-4ae3-80a2-016be0dcde45)
+
+
+**Analysis by Location Coordinates("Lat/Long")**:
 
 - Most of the properties are located between 51.207870 and 51.220905 latitude.
 
 - Prices of the properties are high between the latitudes 51.200 and 51.250.
+
+- Most of the properties are located between 4.400140 and 4.424660 longitude.
+
+- The prices of the properties are relatively high between the longitudes.
 
 
 
