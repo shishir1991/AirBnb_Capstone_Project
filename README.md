@@ -158,10 +158,10 @@ Several regression models were compared, including Multilinear Regression, Regre
 
 #### The Random Forest Regressor was selected as the final model based on its superior performance. The model's evaluation metrics are as follows:
 
-Best Model: Random Forest Regressor
-Test MAE: 1.4016939707545986
-Test MSE: 121.63470813256798
-Test R²: 0.9956058407503108
+- Best Model: Random Forest Regressor
+- Test MAE: 1.4016939707545986
+- Test MSE: 121.63470813256798
+- Test R²: 0.9956058407503108
 
 #### The model with the **lowest** **MAE** and **MSE**, and the **highest** **R²** is the best.
 
