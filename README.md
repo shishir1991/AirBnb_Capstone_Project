@@ -6,7 +6,7 @@ This repository contains the code and data for the Airbnb Capstone Project. The 
 1. [Project Overview](#project-overview)
 2. [Data Description](#data-description)
 3. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-    - [Price Distribution](#price-distribution)
+    - [Bivariate relationships using Scatterplot for Price Distribution](#bivariate-relationships-using-scatterplot-for-price-distribution)
     - [Correlation Heatmap](#correlation-heatmap)
     - [Feature Distributions](#feature-distributions)
 4. [Feature Engineering](#feature-engineering)
@@ -33,9 +33,9 @@ The dataset comprises four tables:
 
 ## Exploratory Data Analysis (EDA)
 
-### Price Distribution
+### Bivariate relationships using Scatterplot for Price Distribution
 
-![Price Distribution](images/price_distribution.png)
+![Price Distribution](images/![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/bb9fecca-e9cc-4170-a0b7-7d3e61ec1139).png)
 
 
 
