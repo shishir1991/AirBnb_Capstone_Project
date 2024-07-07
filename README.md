@@ -35,7 +35,7 @@ The dataset comprises four tables:
 
 ### Bivariate relationships using Scatterplot for Price Distribution
 
-![Price Distribution](images/![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/bb9fecca-e9cc-4170-a0b7-7d3e61ec1139).png)
+![Price Distribution][image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/bb9fecca-e9cc-4170-a0b7-7d3e61ec1139)
 
 
 
