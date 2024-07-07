@@ -18,6 +18,7 @@ This repository contains the code and data for the Airbnb Capstone Project. The 
 7. [Conclusion](#conclusion)
 8. [Files in the Repository](#files-in-the-repository)
 
+
 ## Project Overview
 
 The objective of this project is to build a machine learning model that can suggest appropriate listing prices to property owners when they list their properties for rent on Airbnb. The dataset used for this project includes various attributes of the Calender, listings, hosts, and reviews.
@@ -113,17 +114,110 @@ The dataset comprises four tables:
 
 ### Feature Distributions
 
+**1. Analysis by Location Coordinates("Lat/Long")**:
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/ac5eb0f6-347b-43d8-b539-5006cd6c1515)
+
+**2. Analysis by Accommodates**:
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/1333291d-c16d-4548-a412-d178fccc1407)
+
+**3. Analysis by Bedrooms**:
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/56df8f10-f2d0-4337-b582-813a5fffdf6a)
+
+**4. Analysis by Amenities**:
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/87d0f6aa-00a2-4029-a68e-ecf7228669df)
 
 
+## Feature Engineering
+
+Several new features were created, and existing features were transformed to improve the model's predictive power. Key engineered features include host experience in months, distance from railway station, bus station, and various aggregated metrics from the calendar data.
 
 
+## Modeling
+
+### Train/Test/Validation Split
+
+The data was split into training, validation, and test sets using a 70-15-15 split to ensure the model generalizes well to unseen data.
+
+### Model Comparison
+
+Several regression models were compared, including Multilinear Regression, Regression Trees, Random Forest Regressor, Gradient Boosting Machine (GBM), XGBoost, and LightGBM.
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/244b40de-af0c-4618-9ff8-d669285b5151)
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/6bcf6403-6cd7-467b-bad9-f098363599dd)
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/75c4f093-168c-4fca-b752-d7dfb70fa26a)
+
+### Final Model
+
+#### The Random Forest Regressor was selected as the final model based on its superior performance. The model's evaluation metrics are as follows:
+
+Best Model: Random Forest Regressor
+Test MAE: 1.4016939707545986
+Test MSE: 121.63470813256798
+Test R²: 0.9956058407503108
+
+#### The model with the **lowest** **MAE** and **MSE**, and the **highest** **R²** is the best.
 
 
+## Model Deployment
+
+The final model has been deployed using jupyter notebook final model [Airbnb price predictor](#Airbnb_price_predictor_RF) file and Streamlit using final price prediction file [Airbnbprice.py](#airbnbprice.py). You can predict the price of a property by entering the top 10 predictors that directly influence the target variable (price).
+
+#### Result using pyton in Jupyter Notebook
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/8e603924-d469-4a4d-ba0c-a967e480fe8a)
+
+#### Result by running model using Streamlit
+
+![image](https://github.com/shishir1991/AirBnb_Capstone_Project/assets/157515610/efaef50b-8414-4f85-a3cd-a65b5d4e3b61)
 
 
+## Conclusion
+
+The Random Forest Regressor was found to be the best model for predicting Airbnb listing prices. Key predictors includes: 
+
+#### Top 5 most important predictors, we can use the feature importance attribute of the finalized model .
+  - Feature: property_type_Private room in townhouse, Importance: 0.2748234452248065
+  - Feature: property_type_Entire villa, Importance: 0.13951710988468868
+  - Feature: accomodates, Importance: 0.06764998181524914
+  - Feature: bathroom_number, Importance: 0.06618025546898562
+  - Feature: distance_to_railway_station, Importance: 0.05432578039678924
+
+#### Top 5 Most Important Predictors:
+  - property_type_Private room in townhouse: High importance value, indicates it significantly influences the target variable.
+  - property_type_Entire villa: High importance value, second most influential predictor.
+  - accomodates: Moderate importance value, third most influential.
+  - distance_to_railway_station: Lower importance value, fourth most influential.
+  - latitude: Lowest importance value among the top 5, but still significant.
 
 
+## Files in the Repository
 
+- [**Airbnb Capstone Project.ipynb**](Airbnb%20Capstone%20Project.ipynb): Jupyter notebook containing the code and analysis.
+- [**final_df.xls**](final_df.xls): Final dataset after preprocessing and feature engineering.
+- [**airbnbprice.py**](airbnbprice.py): Script for deploying the model using Streamlit.
+- [**random_forest_model.pkl**](random_forest_model.pkl): Trained Random Forest Regressor model.
+- [**scaler.pkl**](scaler.pkl): Scaler used for feature scaling.
+- [**Airbnb_price_predictor_RF.ipynb**](Airbnb_price_predictor_RF.ipynb): Jupyter notebook for Random Forest model analysis.
+- [**Presentation.pptx**](Presentation.pptx): Presentation summarizing the project.
+
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/shishir1991/AirBnb_Capstone_Project/blob/main/LICENSE) file for more details.
+
+
+## Contact
+For any further questions or contributions, please contact us:
+
+#### Project Lead: Shishir KHerod
+#### Email: shishirdma@gmail.com
+
+Feel free to clone this repository and explore the code and data. If you have any questions or suggestions, please open an issue or contact me directly.
 
 
 
