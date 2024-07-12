@@ -1,4 +1,4 @@
-# AirBnb_Capstone_Project_Machine_Learning_Model
+# Airbnb listing prices prediction in Antwerp using ML models
 
 This repository contains the Juptyer files with code and data for the Airbnb Capstone Project. The project aims to predict the appropriate listing prices for properties in Antwerp, Belgium, using various **Machine Learning Models**. The final model selected is the **Random Forest Regressor**, which has been deployed using Streamlit for property price prediction.
 
